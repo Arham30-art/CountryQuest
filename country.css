@@ -1,3 +1,36 @@
+
+/* 🌙 Dark mode styles */
+body.dark {
+    background-color: #202c37;
+    color: white;
+  }
+  
+  body.dark .header-container {
+    background-color: #2b3945;
+    color: white;
+  }
+  
+  body.dark .theme-changer {
+    color: white;
+  }
+  
+  body.dark .back-button,
+  body.dark .border-countries a {
+    background-color: #2b3945;
+    color: white;
+    box-shadow: none;
+  }
+  
+  body.dark .country-details img {
+    border-color: #444;
+  }
+  
+  body.dark .country-details-container {
+    background-color: #202c37;
+  }
+  
+
+
 .country-details-container {
     max-width: 1200px;
     margin-inline: auto;
